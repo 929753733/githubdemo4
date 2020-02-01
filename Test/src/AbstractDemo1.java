@@ -3,6 +3,8 @@ public abstract class AbstractDemo1 {
 	
 	public String aString = "aString";
 	private String bString = "bString";
+	
+	
 	public void c() {
 		System.out.println("c");
 	}
