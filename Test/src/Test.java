@@ -1,10 +1,20 @@
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.omg.CORBA.portable.ValueBase;
+import org.omg.SendingContext.RunTime;
+
+import com.inspur.InterfaceDemo.Demo1;
 
 public class Test {
 	
@@ -47,18 +57,29 @@ public class Test {
 //		System.out.println(map.get("aaa"));
 //	}
 	
+//	public static void main(String[] args) {
+//		try {
+//			int aString = 333;
+//			System.out.println(aString);
+//			int a = 0;
+//			aString = a/0;
+//			System.out.println(aString);
+//		} catch (Exception e) {
+//		} finally {
+//			System.out.println("vvvvv");
+//		}
+//		
+//	}
+	
+	
 	public static void main(String[] args) {
-		try {
-			int aString = 333;
-			System.out.println(aString);
-			int a = 0;
-			aString = a/0;
-			System.out.println(aString);
-		} catch (Exception e) {
-		} finally {
-			System.out.println("vvvvv");
-		}
-		
+		StampedLock
+//		ReentrantReadWriteLock
+
+	}
+	
+	public static String aaa(String a) {
+		return a;
 	}
 
 }
