@@ -1,0 +1,2 @@
+说明：
+此为sychronized和lock的区别说明类。
