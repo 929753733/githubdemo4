@@ -1,5 +1,5 @@
 
-public abstract class AbstractDemo1 {
+public class AbstractDemo1 {
 	
 	public String aString = "aString";
 	private String bString = "bString";
@@ -13,6 +13,6 @@ public abstract class AbstractDemo1 {
 		System.out.println("d");
 	}
 	
-	public abstract void e();
+//	public abstract void e();
 
 }
