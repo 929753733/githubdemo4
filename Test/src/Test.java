@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Hashtable;
@@ -73,8 +74,45 @@ public class Test {
 	
 	
 	public static void main(String[] args) {
-		StampedLock
+//		StampedLock
 //		ReentrantReadWriteLock
+//		Map<String, String> map = new HashMap<String, String>();
+//		map.put("a", "1");
+//		map.put("b", "2");
+//		
+//		Set<String> set = map.keySet();
+//		Iterator<String> iterator = set.iterator();
+//		while(iterator.hasNext()) {
+//			System.out.println(iterator.next());
+//		}
+//		
+//		Collection<String> collection = map.values();
+//		Iterator<String> iterator2 = collection.iterator();
+//		while(iterator2.hasNext()) {
+//			System.out.println(iterator2.next());
+//		}
+//		if("a".equals("a")) {
+//			System.out.println("1");
+//		}
+//		if("a"=="a") {
+//			System.out.println("2");
+//		}
+		
+		
+		
+//		String aString = new String("aaa");
+//		String bString = new String("aaa");
+//		if(aString.equals(bString)) {
+//			System.out.println("1");
+//		}
+//		if(aString==bString) {
+//			System.out.println("2");
+//		}
+		
+		
+		
+		
+		
 
 	}
 	
